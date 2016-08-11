@@ -1,98 +1,279 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf8">
-<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Layouts</title>
-</head>
-<body>
-<div class="contenedor">
-	<div class="encabezado">
-		<img src="logo.png"/>
-		<ul class="list-menu">
-			<li><a href=index.html>Inicio</a></li>
-			<li><a href=index.html>Sobre nosotros</a></li>
-			<li><a href=index.html#coders>Nuestras coders</a></li>
-			<li><a href=index.html>Contacto</a></li>
-		</ul>
-	</div>
-	<div>
-		<img src="grupal.jpg"/>
-	</div>
-	<hr class="separador">
-		<p class="descripcion">Laboratoria existe para encontrar jóvenes
-        mujeres con potencial pero sin acceso a
-		educación superior de calidad, y
-		transformarlas en talentosas desarrolladoras
-		web, que sirven clientes locales e
-		internacionales con soluciones digitales de
-		excelente calidad</p>
-	<hr class="separador">
-	<h1 id="coders">Nuestras coders</h1>
-	<hr class="separador-chico">
-	<ul class="list-coders">
-		<li>
-			<a href="coder-detail.html">
-			<p> Carmen Paola</p>
-			<img src="profile-1.png">
-			</a>
-		</li>
-		<li>
-			<a href="">
-			<p>Susana Emily</p>
-			<img src="profile-2.png">
-			</a>
-		</li>
-		<li>
-			<a href="">
-			<p>Yamilet Sanz</p>
-			<img src="profile-3.png">
-			</a>
-		</li>
-		<li>
-			<a href="">
-			<p>Julia Montero</p>
-			<img src="profile-4.png">
-			</a>
-		</li>
-		<li>
-			<a href="">
-			<p>Daniela CRUZ</p>
-			<img src="profile-5.png">
-			</a>
-		</li>
-		<li>
-			<a href="">
-			<p>Matilde Fraco</p>
-			<img src="profile-6.png">
-			</a>
-		</li>
-	</ul>
-	<div id="persona" class="personaje">
-		<img src="profile-1.png" class="foto">
-		<h1 >Carmen Paola</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-		commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-		velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-		cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-		est laborum</p>
-		<h2 class="subtitulos">Habilidades
-			<p class="primero">HTML</p>
-			<P class="segundo">CSS</P>
-			<P class="tercero">JavaScrip</P>
-		</h2>
-		<h2 class="subtitulos">Portafolio</h2>
-			<ul class="list-fotos">
-				<li><img src="p5.jpg"></li>
-				<li><img src="p6.jpg"></li>
-				<li><img src="p8.jpg"></li>
-				<li><img src="p5.jpg"></li>
-				<li><img src="p6.jpg"></li>
-				<li><img src="p8.jpg"></li>
-			</ul>
-	</div>
-</div>
-</body>
-</html>
+
+<Doctype> 
+  <head>
+    <head>
+      <meta charset="UTF-8"/>
+      <title>PORTAFOLIO</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/font.css"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css"/>
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+      <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
+      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
+      <script src="js/main.js"></script>
+    </head>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container"></div>
+    </div>
+    <div class="hero-section">
+      <div class="container text-center"><img src="image/logo1.png"/>
+        <div class="row menu">
+          <ul class="text-center list-unstyle list-inline">
+            <li class="hidden"><a href="#"></a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">SOBRE MI</h1><br/>
+        </div>
+        <div class="row">
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio enim minus, officiis, nisi aliquam architecto itaque qui tempora facilis autem nam sint natus. Minus officia, quo nobis. Quidem, tenetur distinctio.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quos autem nemo fuga ab perferendis quisquam delectus at ipsam enim saepe magni nihil molestiae, vero quia dolore porro animi ullam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="cintill">
+      <div class="container">
+        <div class="row"><img src="image/d1.png" class="pull-right"/>
+          <h4 class="text-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex."	</h4>
+        </div>
+        <div class="row i text-center">
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><img src="image/d3.png"/>
+        </div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="container">
+        <h1 class="text-center">SKILL</h1>
+        <section class="intro">
+          <div class="intro-block">
+            <div class="centerfold-wrap">
+              <div class="col-md-6">
+                <div class="hex-master-wrap">
+                  <div class="grid-1">
+                    <div data-title="HTML" data-content="backend-desc" data-color="#333333" class="hex-wrap backend">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/3XjDZGJ.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-title="HTML" data-content="frontend-desc" data-color="#16A085" class="hex-wrap frontend">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/f8WewU1.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-2">
+                    <div data-title="SASS" data-content="html-desc" data-color="#E34C26" class="hex-wrap html">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/CHmGJ8M.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-title="SASS" data-content="css-desc" data-color="#0083de" class="hex-wrap css">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/kUSks3I.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-title="CSS3" data-content="javascript-desc" data-color="#8cc84b" class="hex-wrap jquery">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/5B9usMm.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-3">
+                    <div data-title="JADE" data-content="gui-desc" data-color="#2C3E52" class="hex-wrap gui">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/3dXtbto.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-title="JAVASCRIPT" data-content="seo-desc" data-color="#C0392B" class="hex-wrap seo">
+                      <div class="hex-init"></div>
+                      <div class="hex-borders">
+                        <div class="border-1"></div>
+                        <div class="border-2"></div>
+                        <div class="border-3"></div>
+                      </div>
+                      <div class="label"><img src="http://i.imgur.com/FkEYVo6.png"/></div>
+                      <div class="hexagon">
+                        <div class="hex-inner-1">
+                          <div class="hex-inner-2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6"> 
+                <div class="code-display">
+                  <div class="code-description">
+                    <div class="backend-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P><img src="image/github.png"/>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="frontend-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="html-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="css-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="javascript-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="gui-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                    <div class="seo-desc">
+                      <p class="code-title"></p>
+                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
+                      <div class="code-icon"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hoverblock"></div>
+              </div>
+              <!-- End Centerfold-Wrap-->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="proyects">
+      <div class="container">
+        <div class="row text-center">
+          <h1>PROYECTOS</h1>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 red"><img src="image/d4.PNG"/>
+              <figcaption>
+                <h2>Escuela de Danza</h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 navy"><img src="image/d5.PNG"/>
+              <figcaption>
+                <h2>E-Comunidad</h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 navy"><img src="image/d5.PNG"/>
+              <figcaption>
+                <h2>Carmen  <span>Glenn</span></h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 navy"><img src="image/d9.PNG"/>
+              <figcaption>
+                <h2>Carmen  <span>Glenn</span></h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 navy"><img src="image/d8.PNG"/>
+              <figcaption>
+                <h2>Carmen  <span>Glenn</span></h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 box-projects">
+            <figure class="snip1091 navy"><img src="image/d7.PNG"/>
+              <figcaption>
+                <h2>Carmen  <span>Glenn</span></h2>
+              </figcaption><a href="#"></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="container">
+        <div class="row text-center">
+          <h1>CONTACTO</h1>
+          <p>mfernandez.a25@gmail.com</p>
+          <p>974314448 / 970879089</p>
+        </div>
+        <div class="row caja text-center"><a href=""><img src="image/gmail.png"/></a><a href=""><img src="image/github.png"/></a><a href=""><img src="image/pinterest.png"/></a></div>
+      </div>
+    </div>
+  </body>
+</Doctype>
