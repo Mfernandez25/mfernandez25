@@ -9,6 +9,8 @@
       <link rel="stylesheet" type="text/css" href="css/main.css"/>
       <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
       <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pathway+Gothic+One|Pattaya" rel="stylesheet"/>
       <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
       <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -19,19 +21,37 @@
   </head>
   <body>
     <div class="header">
-      <div class="container"></div>
+      <div class="container">
+        <div class="row menu-list">
+          <nav class="navbar navbar-custom navbar-fixed-top text-center">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed navbar-toggle"><i>MENU</i></button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav text-center text-center">
+                <li class="hidden"><a href="#"></a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
     <div class="hero-section">
       <div class="container text-center"><img src="image/logo1.png"/>
         <div class="row menu">
-          <ul class="text-center list-unstyle list-inline list-menu">
+          <ul class="text-center list-unstyle list-inline">
             <li class="hidden"><a href="#"></a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#about">SOBRE MI</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
+        <div id="about" class="p"></div>
       </div>
     </div>
     <div class="about">
@@ -39,9 +59,17 @@
         <div class="row">
           <h1 class="text-center">SOBRE MI</h1>
           <div class="col-md-6">
-            <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio enim minus, officiis, nisi aliquam architecto itaque qui tempora facilis autem nam sint natus. Minus officia, quo nobis. Quidem, tenetur distinctio.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quos autem nemo fuga ab perferendis quisquam delectus at ipsam enim saepe magni nihil molestiae, vero quia dolore porro animi ullam.</p>
+            <p class="text-center">Hola</p>
+            <p class="text-center">Soy Merle,desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. </p>
           </div>
           <div class="col-md-6"><img src="image/iabout.png"/></div>
+        </div>
+      </div>
+    </div>
+    <div class="cintillo">
+      <div class="container">
+        <div class="row text-center">
+          <p class="two"> <span id="skills">----------"No hay éxito, sin trabajo"---------</span></p>
         </div>
       </div>
     </div>
@@ -169,7 +197,7 @@
                     </div>
                     <div class="frontend-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P><img src="image/ihtml.png" class="pull-right"/>
+                      <P class="texto text-justify"> Desarrollo de sitios web responsive que permiten al usuario experimentar su sitio web en ciualquier disposivo que estén utilizando.</P><img src="image/ihtml.png" class="pull-right"/>
                       <div class="code-icon"></div>
                     </div>
                     <div class="html-desc">
@@ -177,7 +205,7 @@
                       <P class="texto text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ad dolorum nam incidunt! Animi ratione tenetur dolorem natus minima consequuntur atque nisi, minus eveniet officiis dolore voluptate voluptas, quaerat, eos.</P>
                       <div class="code-icon"></div><img src="image/isass.png" class="pull-right"/>
                     </div>
-                    <div class="css-desc"><img src="image/imain.png" class="pull-right"/>
+                    <div class="css-desc"><img src="image/imain.png" class="iwordpress"/>
                       <div class="code-icon"></div>
                     </div>
                     <div class="javascript-desc">
@@ -204,7 +232,7 @@
         </section>
       </div>
     </div>
-    <div class="proyects jj">
+    <div id="projects" class="proyects">
       <div class="container">
         <div class="row text-center">
           <h1>PROYECTOS</h1>
@@ -225,21 +253,21 @@
           <div class="col-md-4 box-projects">
             <figure class="snip1091 navy"><img src="image/d5.PNG"/>
               <figcaption>
-                <h2>Carmen  <span>Glenn</span></h2>
+                <h2>La República</h2>
               </figcaption><a href="#"></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
             <figure class="snip1091 navy"><img src="image/d9.PNG"/>
               <figcaption>
-                <h2>Carmen  <span>Glenn</span></h2>
+                <h2>Primes Themes</h2>
               </figcaption><a href="#"></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
             <figure class="snip1091 navy"><img src="image/d8.PNG"/>
               <figcaption>
-                <h2>Carmen  <span>Glenn</span></h2>
+                <h2>Cips</h2>
               </figcaption><a href="#"></a>
             </figure>
           </div>
@@ -253,7 +281,7 @@
         </div>
       </div>
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="container">
         <div class="row text-center">
           <h1>CONTACTO</h1>

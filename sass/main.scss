@@ -1,7 +1,8 @@
-*{outline: 1px solid red;}
+// *{outline: 1px solid red;}
 // estilos geneerales
 body{
   background: #eee;
+  font-family: 'Abel', sans-serif;
 }
 .oscuro{
   background:rgba(0,0,0,0.5);
@@ -13,43 +14,51 @@ h1{
 }
 // fin de estilos generaless
 //
-// .header{
-//   // background:#03B282;
-//   .menu{
-//   	a{
-//   		color: white;
-//   		font-size: 12px;
-//   	}
-//     .navbar-nav li{
-//       padding:0px 10px;
-//     }
-//   	.navbar-nav a{
-//   		padding: 10px 20px;
-//       border-radius: 50px;
-//       border: 2px solid white;
-//   	}
-//     .navbar-custom .nav li a {
-//       -webkit-transition: background .3s ease-in-out;
-//       -moz-transition: background .3s ease-in-out;
-//       transition: background .3s ease-in-out;
-//     }
-//     .navbar-custom .nav li a:hover {
-//       color:#03B282 ;
-//       outline: none;
-//       background-color: white;
-//       border: 1px solid white;
-//     }
-//   	.navbar-custom{
-//   		background-color: #03B282;
-//       padding: 20px;
-//       text-transform: uppercase;
-//   	}
-//   	.navbar{
-//   		margin-bottom: 0;
-//   	}
-//   	i{color: white;}
-//   }
-// }
+.header{
+  // background:#03B282;
+  .menu-list{
+  	a{
+  		color: white;
+  		font-size: 12px;
+
+  	}
+    .navbar-nav li{
+      padding:0px 10px;
+      border-radius: 50px;
+      border: 3px solid white;
+      margin: 5px;
+    }
+  	.navbar-nav a{
+  		padding: 10px 20px;
+  	}
+    .navbar-custom .nav li a {
+      -webkit-transition: background .3s ease-in-out;
+      -moz-transition: background .3s ease-in-out;
+      transition: background .3s ease-in-out;
+    }
+    .navbar-custom .nav li:hover{
+      background-color: white;
+      border: 1px solid white;
+      border-radius: 50px;
+      border: 3px solid white;
+    }
+
+    .navbar-custom .nav li a:hover {
+      color:#03B282 ;
+      outline: none;
+      background: white;
+    }
+  	.navbar-custom{
+  		background-color: #03B282;
+      padding: 20px;
+      text-transform: uppercase;
+  	}
+  	.navbar{
+  		margin-bottom: 0;
+  	}
+  	i{color: white;}
+  }
+}
 .menu{
   padding: 60px 0px 20px;
   li{margin: 10px;
@@ -64,7 +73,7 @@ h1{
 }
 .hero-section{
     background: #03B282;
-    height: 100vh;
+    height: 700px;
     padding-top: 120px;
     img{
       width: 60%;
@@ -74,7 +83,6 @@ h1{
 @media(max-width:750px){
   .hero-section{
     padding-top: 200px;
-    height: auto;
     padding-bottom: 200px;
     img{
       width: 100%;
@@ -101,43 +109,22 @@ h1{
 .about{
   padding: 60px 0px 80px;
   h1{
-    color: #B5BE00;
+    color:  #03B282;
   }
   p{
-    padding: 30px 20px;
-    font-size: 18px;
+    padding: 20px 20px;
+    font-size: 24px;
+
   }
   img{width: 100%}
 
 }
 .cintillo{
-  background-image: url("../image/d1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:auto;;
-  padding: 50px 0px;
-    h4{color: white;}
-}
-.cintill{
-  img{
-    width: 50%;
-    height: 250px;
-  }
-}
-.i{
-  img{
-    width: 100%;
-    height: 50px;
-    margin: 10px;
-  }
-}
-.cintillo1{
-  background-image: url("../image/d1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:auto;
-  padding: 50px 0px;
-    h4{color: white;}
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 40px;
+  background: white;
+  color:#E06665;
+  padding: 10px;
 }
 .skill{
   background-color:black;
@@ -164,6 +151,7 @@ h1{
     color:white;
     margin-bottom: 40px;
   }
+  p{font-size: 25px;}
   .caja{
     padding: 20px;
     a{

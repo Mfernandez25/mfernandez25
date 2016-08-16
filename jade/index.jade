@@ -4,29 +4,37 @@ Doctype
 	body
 		.header
 			.container
+				include ci/menu.jade
 		.hero-section
 			.container.text-center
 				img(src="image/logo1.png")
 				.row.menu
 					include ci/centro.jade
+				.p#about
 		.about
 			.container
 				.row
 					h1.text-center SOBRE MI
 					.col-md-6
-							p.text-center  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio enim minus, officiis, nisi aliquam architecto itaque qui tempora facilis autem nam sint natus. Minus officia, quo nobis. Quidem, tenetur distinctio.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quos autem nemo fuga ab perferendis quisquam delectus at ipsam enim saepe magni nihil molestiae, vero quia dolore porro animi ullam.
+							p.text-center Hola
+							p.text-center Soy Merle,desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. 
 					.col-md-6
 						img(src="image/iabout.png")
+		.cintillo
+			.container
+				.row.text-center
+					p.two 
+						span#skills ----------"No hay éxito, sin trabajo"---------
 		.skill
 			.container
 				h1.text-center SKILL
 				include ci/skill.jade
-		.proyects.jj
+		.proyects#projects
 			.container
 				.row.text-center
 					h1 PROYECTOS
 					include ci/proyectos.jade
-		.contact
+		.contact#contact
 			.container
 				.row.text-center
 					h1 CONTACTO
