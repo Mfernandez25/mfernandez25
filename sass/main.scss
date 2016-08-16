@@ -1,5 +1,8 @@
-// *{outline: 1px solid red;}
+*{outline: 1px solid red;}
 // estilos geneerales
+body{
+  background: #eee;
+}
 .oscuro{
   background:rgba(0,0,0,0.5);
   height: auto;
@@ -9,44 +12,44 @@ h1{
   font-size: 45px;
 }
 // fin de estilos generaless
-
-.header{
-  // background:#03B282;
-  .menu{
-  	a{
-  		color: white;
-  		font-size: 12px;
-  	}
-    .navbar-nav li{
-      padding:0px 10px;
-    }
-  	.navbar-nav a{
-  		padding: 10px 20px;
-      border-radius: 50px;
-      border: 2px solid white;
-  	}
-    .navbar-custom .nav li a {
-      -webkit-transition: background .3s ease-in-out;
-      -moz-transition: background .3s ease-in-out;
-      transition: background .3s ease-in-out;
-    }
-    .navbar-custom .nav li a:hover {
-      color:#03B282 ;
-      outline: none;
-      background-color: white;
-      border: 1px solid white;
-    }
-  	.navbar-custom{
-  		background-color: #03B282;
-      padding: 20px;
-      text-transform: uppercase;
-  	}
-  	.navbar{
-  		margin-bottom: 0;
-  	}
-  	i{color: white;}
-  }
-}
+//
+// .header{
+//   // background:#03B282;
+//   .menu{
+//   	a{
+//   		color: white;
+//   		font-size: 12px;
+//   	}
+//     .navbar-nav li{
+//       padding:0px 10px;
+//     }
+//   	.navbar-nav a{
+//   		padding: 10px 20px;
+//       border-radius: 50px;
+//       border: 2px solid white;
+//   	}
+//     .navbar-custom .nav li a {
+//       -webkit-transition: background .3s ease-in-out;
+//       -moz-transition: background .3s ease-in-out;
+//       transition: background .3s ease-in-out;
+//     }
+//     .navbar-custom .nav li a:hover {
+//       color:#03B282 ;
+//       outline: none;
+//       background-color: white;
+//       border: 1px solid white;
+//     }
+//   	.navbar-custom{
+//   		background-color: #03B282;
+//       padding: 20px;
+//       text-transform: uppercase;
+//   	}
+//   	.navbar{
+//   		margin-bottom: 0;
+//   	}
+//   	i{color: white;}
+//   }
+// }
 .menu{
   padding: 60px 0px 20px;
   li{margin: 10px;
@@ -66,8 +69,24 @@ h1{
     img{
       width: 60%;
       margin: auto;
-
     }
+}
+@media(max-width:750px){
+  .hero-section{
+    padding-top: 200px;
+    height: auto;
+    padding-bottom: 200px;
+    img{
+      width: 100%;
+    }
+    .menu{
+      li{margin: 5px;
+      font-size: 10px;
+      padding: 5px;
+      width: 70px;
+    }
+    }
+}
 }
 .hero{
   background-color: #E06665;
@@ -82,13 +101,13 @@ h1{
 .about{
   padding: 60px 0px 80px;
   h1{
-    color: #129B76;
+    color: #B5BE00;
   }
   p{
-    border: 1px dashed black;
     padding: 30px 20px;
     font-size: 18px;
   }
+  img{width: 100%}
 
 }
 .cintillo{
@@ -121,12 +140,12 @@ h1{
     h4{color: white;}
 }
 .skill{
-  background-color:#EFF0EA;
+  background-color:black;
   height: auto;
   padding: 30px;
   color: white;
     h1{
-      color: #03B282;
+      color: #fff;
     }
 }
 .proyects{
@@ -159,3 +178,4 @@ h1{
 
 @import 'portafolio';
 @import 'skill';
+@import 'prueba';
