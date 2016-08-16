@@ -19,9 +19,9 @@ h1 {
 }
 
 .header .menu-list .navbar-nav li {
-  padding: 0px 10px;
+  padding: 0px 5px;
   border-radius: 50px;
-  border: 3px solid white;
+  border: 2px solid white;
   margin: 5px;
 }
 
@@ -139,6 +139,7 @@ h1 {
   background: white;
   color: #E06665;
   padding: 10px;
+  background-image: url("../image/img16.jpg");
 }
 
 .skill {
