@@ -704,6 +704,12 @@ p.code-title {
   transform: rotate(60deg);
 }
 
-.iwordpress {
+@media (max-width: 750px) {
+  .iwordpress {
+    width: 100%;
+  }
+}
+
+.res {
   width: 100%;
 }
