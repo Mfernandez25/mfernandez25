@@ -4,6 +4,7 @@ $(document).ready(function () {
 		$(".hex-wrap").velocity("callout.pulse");
 		$(".hoverblock").velocity("fadeOut", { delay: 3000, duration: 0 });
 		}
+
 	hex_initial_animation();
 
 var hoverdetect = setInterval(function(){ hovernotify() }, 3000);
@@ -14,7 +15,6 @@ function myStopFunction() {
 $(".hover-notify").velocity('stop', true).velocity("fadeOut");
     clearInterval(hoverdetect);
 }
-
 		$(".hex-init").mouseenter(function () {
 
 			myStopFunction();
@@ -43,11 +43,19 @@ $(".hover-notify").velocity('stop', true).velocity("fadeOut");
 			});
 });
 
+// menu
+// Sticky Header
+$(document).ready(function(){
+  $('.header').hide();
+});
+$(window).scroll(function() {
 
-
-
-
-
+    if ($(window).scrollTop() < 600) {
+        $('.header').hide();
+    } else {
+        $('.header').show();
+    }
+});
 
 
 /* Demo purposes only */

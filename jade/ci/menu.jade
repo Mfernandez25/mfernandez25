@@ -1,19 +1,24 @@
 .row.menu-list
-	nav.navbar.navbar-custom.navbar-fixed-top.text-center
-		.navbar-header
-			button.navbar-toggle.collapsed(type="button",class="navbar-toggle",data-toggle="collapse",data-target="#navbar")
-					i MENU
-		.collapse.navbar-collapse#navbar
-			ul.nav.navbar-nav.navbar-right
-				li.hidden
-					a(href="#")
-				li		
-					a(href="#about") SOBRE MI
-				li
-					a(href="#skills") HABILIDADES
-				li
-					a(href="#projects") PROYECTOS
-				li
-					a(href="#contact") CONTACTO
+			nav.navbar.navbar-custom.text-center
+				.navbar-header
+					button.navbar-toggle.collapsed(type="button",class="navbar-toggle",data-toggle="collapse",data-target="#navbar")
+						i.fa.fa-bars
+					img.navbar-brand(src="image/logomenu.png")
+				.collapse.navbar-collapse#navbar
+					ul.nav.navbar-nav.navbar-right
+						li.hidden
+							a(href="#")
+						li		
+							a(href="#about") 
+								strong SOBRE MI
+						li
+							a(href="#skills") 
+								strong HABILIDADES
+						li
+							a(href="#projects") 
+								strong PROYECTOS
+						li
+							a(href="#contact") 
+								strong CONTACTO
 		
 				

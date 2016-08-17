@@ -1,17 +1,16 @@
-Doctype 
-	head
-		include ci/link.jade
+doctype html
+html(lang="en")
+	include ci/link.jade
 	body
-		.header
+		.header.navbar-fixed-top
 			.container
 				include ci/menu.jade
 		.hero-section
 			.container.text-center
 				img(src="image/logo1.png")
-				.row.menu
+				.row.menu.hidden-xs
 					include ci/centro.jade
-				.p#about
-		.about
+		.about#about
 			.container
 				.row
 					h1.text-center SOBRE MI
@@ -29,7 +28,8 @@ Doctype
 			.container
 				h1.text-center HABILIDADES
 				include ci/skill.jade
-		.proyects#projects
+		p#projects
+		.proyects
 			.container
 				.row.text-center
 					h1 PROYECTOS
@@ -43,7 +43,7 @@ Doctype
 				.row.caja.text-center
 					a(href="")
 						img(src="image/gmail.png")
-					a(href="")
+					a(target="_blank",href="https://github.com/Mfernandez25")
 						img(src="image/github.png")
 					a(href="")
 						img(src="image/pinterest.png")

@@ -1,40 +1,38 @@
-
-<Doctype> 
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <head>
-      <meta charset="UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>Merle Fernàndez ! Portafolio</title>
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-      <link rel="stylesheet" type="text/css" href="css/font.css"/>
-      <link rel="stylesheet" type="text/css" href="css/main.css"/>
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-      <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
-      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pathway+Gothic+One|Pattaya" rel="stylesheet"/>
-      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-      <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
-      <script src="js/main.js"></script>
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merle Fernàndez ! Portafolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pathway+Gothic+One|Pattaya" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="header">
+    <div class="header navbar-fixed-top">
       <div class="container">
         <div class="row menu-list">
-          <nav class="navbar navbar-custom navbar-fixed-top text-center">
+          <nav class="navbar navbar-custom text-center">
             <div class="navbar-header">
-              <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed navbar-toggle"><i>MENU</i></button>
+              <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed navbar-toggle"><i class="fa fa-bars"></i></button><img src="image/logomenu.png" class="navbar-brand">
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="hidden"><a href="#"></a></li>
-                <li>		<a href="#about">SOBRE MI</a></li>
-                <li><a href="#skills">HABILIDADES</a></li>
-                <li><a href="#projects">PROYECTOS</a></li>
-                <li><a href="#contact">CONTACTO</a></li>
+                <li>		<a href="#about"> <strong>SOBRE MI</strong></a></li>
+                <li><a href="#skills"> <strong>HABILIDADES</strong></a></li>
+                <li><a href="#projects"> <strong>PROYECTOS</strong></a></li>
+                <li><a href="#contact"> <strong>CONTACTO</strong></a></li>
               </ul>
             </div>
           </nav>
@@ -42,8 +40,8 @@
       </div>
     </div>
     <div class="hero-section">
-      <div class="container text-center"><img src="image/logo1.png"/>
-        <div class="row menu">
+      <div class="container text-center"><img src="image/logo1.png">
+        <div class="row menu hidden-xs">
           <ul class="text-center list-unstyle list-inline">
             <li class="hidden"><a href="#"></a></li>
             <li><a href="#about">SOBRE MI</a></li>
@@ -52,10 +50,9 @@
             <li><a href="#contact">CONTACTO</a></li>
           </ul>
         </div>
-        <div id="about" class="p"></div>
       </div>
     </div>
-    <div class="about">
+    <div id="about" class="about">
       <div class="container">
         <div class="row">
           <h1 class="text-center">SOBRE MI</h1>
@@ -63,7 +60,7 @@
             <p class="text-center">Hola</p>
             <p class="text-center">Soy Merle,desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. </p>
           </div>
-          <div class="col-md-6"><img src="image/iabout.png"/></div>
+          <div class="col-md-6"><img src="image/iabout.png"></div>
         </div>
       </div>
     </div>
@@ -83,28 +80,28 @@
               <div class="col-md-6">
                 <div class="hex-master-wrap">
                   <div class="grid-1">
-                    <div data-title="HTML" data-content="backend-desc" data-color="#333333" class="hex-wrap backend">
+                    <div data-title="WORDPRESS" data-content="backend-desc" data-color="#FFF" class="hex-wrap backend">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logowordpress.png"/></div>
+                      <div class="label"><img src="image/logowordpress.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
                         </div>
                       </div>
                     </div>
-                    <div data-title="HTML" data-content="frontend-desc" data-color="#16A085" class="hex-wrap frontend">
+                    <div data-title="HTML" data-content="frontend-desc" data-color="#FFF" class="hex-wrap frontend">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logohtml.png"/></div>
+                      <div class="label"><img src="image/logohtml.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
@@ -113,42 +110,42 @@
                     </div>
                   </div>
                   <div class="grid-2">
-                    <div data-title="SASS" data-content="html-desc" data-color="#E34C26" class="hex-wrap html">
+                    <div data-title="SASS" data-content="html-desc" data-color="#FFF" class="hex-wrap html">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logosass.png"/></div>
+                      <div class="label"><img src="image/logosass.png"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
                         </div>
                       </div>
                     </div>
-                    <div data-title="SASS" data-content="css-desc" data-color="#0083de" class="hex-wrap css">
+                    <div data-title="SASS" data-content="css-desc" data-color="#FFF" class="hex-wrap css">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logomain.png"/></div>
+                      <div class="label"><img src="image/logomain.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
                         </div>
                       </div>
                     </div>
-                    <div data-title="CSS3" data-content="javascript-desc" data-color="#8cc84b" class="hex-wrap jquery">
+                    <div data-title="CSS3" data-content="javascript-desc" data-color="#FFF" class="hex-wrap jquery">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logocss.png"/></div>
+                      <div class="label"><img src="image/logocss.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
@@ -157,28 +154,28 @@
                     </div>
                   </div>
                   <div class="grid-3">
-                    <div data-title="JADE" data-content="gui-desc" data-color="#2C3E52" class="hex-wrap gui">
+                    <div data-title="JADE" data-content="gui-desc" data-color="#FFF" class="hex-wrap gui">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logojade.png"/></div>
+                      <div class="label"><img src="image/logojade.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
                         </div>
                       </div>
                     </div>
-                    <div data-title="JAVASCRIPT" data-content="seo-desc" data-color="#C0392B" class="hex-wrap seo">
+                    <div data-title="JAVASCRIPT" data-content="seo-desc" data-color="#FFF" class="hex-wrap seo">
                       <div class="hex-init"></div>
                       <div class="hex-borders">
                         <div class="border-1"></div>
                         <div class="border-2"></div>
                         <div class="border-3"></div>
                       </div>
-                      <div class="label"><img src="image/logojs.png"/></div>
+                      <div class="label"><img src="image/logojs.png" class="img"></div>
                       <div class="hexagon">
                         <div class="hex-inner-1">
                           <div class="hex-inner-2"></div>
@@ -193,35 +190,35 @@
                   <div class="code-description">
                     <div class="backend-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> </P><img src="image/iboos.png" class="iwordpress"/>
+                      <P class="texto text-justify"> </P><img src="image/iboos.png" class="iwordpress">
                       <div class="code-icon"></div>
                     </div>
                     <div class="frontend-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> Desarrollo de sitios web responsive que permiten al usuario experimentar su sitio web en ciualquier disposivo que estén utilizando.</P><img src="image/ihtml.png" class="pull-right"/>
+                      <P class="texto text-justify"> Desarrollo de sitios web responsive que permiten al usuario experimentar su sitio web en ciualquier disposivo que estén utilizando.</P><img src="image/ihtml.png" class="iwordpress pull-right">
                       <div class="code-icon"></div>
                     </div>
                     <div class="html-desc">
                       <p class="code-title"></p>
                       <P class="texto text-justify"> </P>
-                      <div class="code-icon"></div><img src="image/isass.png" class="pull-right"/>
+                      <div class="code-icon"></div><img src="image/isass.png" class="iwordpress pull-right">
                     </div>
-                    <div class="css-desc"><img src="image/imain.png" class="iwordpress"/>
+                    <div class="css-desc"><img src="image/imain.png" class="iwordpress">
                       <div class="code-icon"></div>
                     </div>
                     <div class="javascript-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> </P><img src="image/icss.png" class="iwordpress"/>
+                      <P class="texto text-justify"> </P><img src="image/icss.png" class="iwordpress">
                       <div class="code-icon"></div>
                     </div>
                     <div class="gui-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> </P><img src="image/ijade.png" class="pull-right"/>
+                      <P class="texto text-justify"> </P><img src="image/ijade.png" class="iwordpress pull-right">
                       <div class="code-icon"></div>
                     </div>
                     <div class="seo-desc">
                       <p class="code-title"></p>
-                      <P class="texto text-justify"> </P><img src="image/ijava.png" class="pull-right"/>
+                      <P class="texto text-justify"> </P><img src="image/ijava.png" class="iwordpress pull-right">
                       <div class="code-icon"></div>
                     </div>
                   </div>
@@ -233,49 +230,50 @@
         </section>
       </div>
     </div>
-    <div id="projects" class="proyects">
+    <p id="projects"></p>
+    <div class="proyects">
       <div class="container">
         <div class="row text-center">
           <h1>PROYECTOS</h1>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 red"><img src="image/d4.PNG"/>
+            <figure class="snip1091 red"><img src="image/d4.PNG">
               <figcaption>
                 <h2>Escuela de Danza</h2>
-              </figcaption><a href="#"></a>
+              </figcaption><a target="_blank" href="http://mfernandez25.github.io/labescueladedanza.github.io/"></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 navy"><img src="image/d5.PNG"/>
+            <figure class="snip1091 navy"><img src="image/d5.PNG">
               <figcaption>
                 <h2>E-Comunidad</h2>
-              </figcaption><a href="#"></a>
+              </figcaption><a target="_blank" href="http://mfernandez25.github.io/labecomunidad.github.io/."></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 navy"><img src="image/d5.PNG"/>
+            <figure class="snip1091 navy"><img src="image/d5.PNG">
               <figcaption>
                 <h2>La República</h2>
-              </figcaption><a href="#"></a>
+              </figcaption><a target="_blank" href="http://mfernandez25.github.io/lablarepublica.github.io/"></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 navy"><img src="image/d9.PNG"/>
+            <figure class="snip1091 navy"><img src="image/d9.PNG">
               <figcaption>
                 <h2>Primes Themes</h2>
-              </figcaption><a href="#"></a>
+              </figcaption><a target="_blank" href="http://mfernandez25.github.io/labprimesthemes.github.io/."></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 navy"><img src="image/d8.PNG"/>
+            <figure class="snip1091 navy"><img src="image/d8.PNG">
               <figcaption>
                 <h2>Cips</h2>
               </figcaption><a href="#"></a>
             </figure>
           </div>
           <div class="col-md-4 box-projects">
-            <figure class="snip1091 navy"><img src="image/d7.PNG"/>
+            <figure class="snip1091 navy"><img src="image/d7.PNG">
               <figcaption>
-                <h2>Carmen  <span>Glenn</span></h2>
+                <h2>Agency Theme</h2>
               </figcaption><a href="#"></a>
             </figure>
           </div>
@@ -289,8 +287,8 @@
           <p>mfernandez.a25@gmail.com</p>
           <p>974314448 / 970879089</p>
         </div>
-        <div class="row caja text-center"><a href=""><img src="image/gmail.png"/></a><a href=""><img src="image/github.png"/></a><a href=""><img src="image/pinterest.png"/></a></div>
+        <div class="row caja text-center"><a href=""><img src="image/gmail.png"></a><a target="_blank" href="https://github.com/Mfernandez25"><img src="image/github.png"></a><a href=""><img src="image/pinterest.png"></a></div>
       </div>
     </div>
   </body>
-</Doctype>
+</html>

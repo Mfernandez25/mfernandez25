@@ -13,26 +13,33 @@ h1 {
   font-size: 45px;
 }
 
+@media (max-width: 750px) {
+  h1 {
+    font-size: 33px;
+  }
+}
+
+.header {
+  background: #03B282;
+}
+
 .header .menu-list a {
   color: white;
-  font-size: 12px;
+  font-size: 13px;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+@media (max-width: 750px) {
+  .header .menu-list a {
+    font-size: 16px;
+  }
 }
 
 .header .menu-list .navbar-nav li {
-  padding: 0px 5px;
   border-radius: 50px;
   border: 2px solid white;
   margin: 5px;
-}
-
-.header .menu-list .navbar-nav a {
-  padding: 10px 20px;
-}
-
-.header .menu-list .navbar-custom .nav li a {
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
 }
 
 .header .menu-list .navbar-custom .nav li:hover {
@@ -49,9 +56,7 @@ h1 {
 }
 
 .header .menu-list .navbar-custom {
-  background-color: #03B282;
-  padding: 20px;
-  text-transform: uppercase;
+  padding: 10px;
 }
 
 .header .menu-list .navbar {
@@ -62,13 +67,17 @@ h1 {
   color: white;
 }
 
+.header .menu-list img {
+  padding: 0;
+}
+
 .menu {
   padding: 60px 0px 20px;
 }
 
 .menu li {
   margin: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
   width: 100px;
   border-radius: 50px;
   padding: 10px;
@@ -76,12 +85,13 @@ h1 {
 
 .menu a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
+  font-size: 15px;
 }
 
 .hero-section {
   background: #03B282;
-  height: 700px;
+  height: 100vh;
   padding-top: 120px;
 }
 
@@ -92,7 +102,7 @@ h1 {
 
 @media (max-width: 750px) {
   .hero-section {
-    padding-top: 200px;
+    padding-top: 230px;
     padding-bottom: 200px;
   }
   .hero-section img {
@@ -129,17 +139,29 @@ h1 {
   font-size: 24px;
 }
 
+@media (max-width: 750px) {
+  .about p {
+    font-size: 20px;
+  }
+}
+
 .about img {
   width: 100%;
 }
 
 .cintillo {
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   background: white;
   color: #E06665;
   padding: 10px;
   background-image: url("../image/img16.jpg");
+}
+
+@media (max-width: 750px) {
+  .cintillo {
+    font-size: 16px;
+  }
 }
 
 .skill {
@@ -154,7 +176,7 @@ h1 {
 }
 
 .proyects {
-  padding: 40px;
+  padding: 50px;
   padding-bottom: 50px;
 }
 
@@ -178,6 +200,12 @@ h1 {
   font-size: 25px;
 }
 
+@media (max-width: 750px) {
+  .contact p {
+    font-size: 18px;
+  }
+}
+
 .contact .caja {
   padding: 20px;
 }
@@ -188,6 +216,12 @@ h1 {
 
 .contact .caja a img {
   width: 5%;
+}
+
+@media (max-width: 750px) {
+  .contact .caja a img {
+    width: 20%;
+  }
 }
 
 .box-projects {
@@ -315,7 +349,7 @@ figure.snip1091.hover figcaption:after {
 }
 
 section.intro {
-  font-family: oswald;
+  font-family: 'Abel', sans-serif;
   background: -moz-radial-gradient(center, ellipse cover, #f6f6f6 1%, #d3d3d3 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #f6f6f6), color-stop(100%, #d3d3d3));
   /* background: -webkit-radial-gradient(center, ellipse cover, #f6f6f6 1%,#d3d3d3 100%); */
@@ -437,7 +471,7 @@ p.code-title {
 
 .hex-master-wrap {
   position: relative;
-  min-width: 100%;
+  min-width: 10%;
   padding: 50px;
 }
 
@@ -472,7 +506,7 @@ p.code-title {
   content: "";
   bottom: 10%;
   left: 42px;
-  width: 50%;
+  width: 10%;
   height: 83%;
   background-color: rgba(255, 255, 255, 0);
   border-top: 1px solid;
@@ -517,6 +551,15 @@ p.code-title {
   transform: scale(1.1);
 }
 
+@media (max-width: 750px) {
+  .hex-wrap {
+    width: 60%;
+  }
+  .hex-wrap .img {
+    width: 10%;
+  }
+}
+
 .hex-wrap .label {
   position: absolute;
   top: 0;
@@ -533,10 +576,22 @@ p.code-title {
   z-index: 3;
 }
 
+@media (max-width: 750px) {
+  .hex-wrap .label {
+    width: 50%;
+  }
+}
+
 .hex-wrap .label svg, .hex-wrap .label img {
   width: 70px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+@media (max-width: 750px) {
+  .hex-wrap .label svg, .hex-wrap .label img {
+    width: 40px;
+  }
 }
 
 .hexagon {
@@ -553,6 +608,13 @@ p.code-title {
   cursor: pointer;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+@media (max-width: 750px) {
+  .hexagon {
+    width: 200px;
+    margin: 5px 0 0 -75px;
+  }
 }
 
 .hex-inner-1 {
