@@ -6,7 +6,7 @@ figure.snip1091 {
   position: relative;
   min-width: 220px;
   max-width: 310px;
-  max-height: 310px;
+  height: 310px;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -107,6 +107,7 @@ figure.snip1091:hover figcaption,
 figure.snip1091.hover figcaption {
   -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
   transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  color:#03B282
 }
 
 figure.snip1091:hover figcaption:before,
@@ -115,3 +116,23 @@ figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
 }
+
+.imgres{
+  height: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

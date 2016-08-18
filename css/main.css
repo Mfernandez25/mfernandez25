@@ -145,6 +145,21 @@ h1 {
   }
 }
 
+.about p .texto {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 .about img {
   width: 100%;
 }
@@ -224,6 +239,13 @@ h1 {
   }
 }
 
+.footer {
+  padding: 30px;
+  color: white;
+  background: #000;
+  font-size: 12px;
+}
+
 .box-projects {
   padding: 10px;
 }
@@ -233,7 +255,7 @@ figure.snip1091 {
   position: relative;
   min-width: 220px;
   max-width: 310px;
-  max-height: 310px;
+  height: 310px;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -339,6 +361,7 @@ figure.snip1091:hover figcaption,
 figure.snip1091.hover figcaption {
   -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
   transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  color: #03B282;
 }
 
 figure.snip1091:hover figcaption:before,
@@ -346,6 +369,10 @@ figure.snip1091.hover figcaption:before,
 figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
+}
+
+.imgres {
+  height: 310px;
 }
 
 section.intro {
@@ -712,4 +739,8 @@ p.code-title {
 
 .res {
   width: 100%;
+}
+
+.imghide {
+  margin-top: 50px;
 }

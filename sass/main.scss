@@ -115,6 +115,20 @@ h1{
     @media (max-width: 750px) {
       font-size: 20px;
     }
+  .texto {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: block;
+width: 100%;
+position: absolute;
+left: 50%;
+top: 50%;
+  }
 
   }
   img{width: 100%}
@@ -172,7 +186,12 @@ h1{
       }
     }
   }
-
+}
+.footer{
+  padding: 30px;
+  color: white;
+  background: #000;
+  font-size: 12px;
 }
 @import 'portafolio';
 @import 'skill';

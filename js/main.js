@@ -31,6 +31,7 @@ $(".hover-notify").velocity('stop', true).velocity("fadeOut");
 							$('.code-descriptopn > div, .desc-active').children().velocity('stop', true).velocity("transition.slideRightBigIn", { stagger: 300 });
 							$('.code-title, .desc-active span').velocity({color: title_color}, { queue: false });
 							$('.code-title').text(title_name)
+							$('.imghide').hide();
 						}, 0);
 			    }
 			    hex_description();
@@ -59,8 +60,15 @@ $(window).scroll(function() {
 
 
 /* Demo purposes only */
-$("figure").mouseleave(
-  function() {
+$(".hover").mouseleave(
+  function () {
     $(this).removeClass("hover");
   }
 );
+
+
+jQuery(document).ready(function($){
+    $('.type-it').typeIt({
+        content : 'Soy Merle,desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. '
+    });
+});
