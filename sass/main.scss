@@ -106,33 +106,35 @@ h1{
 }
 .about{
   padding: 60px 0px 80px;
+  background-image:url("../image/bga.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  @media (max-width: 750px) {
+    // background: #eee;
+  }
+  .pd10{
+    padding: 10px;
+  }
   h1{
     color:  #03B282;
   }
   p{
-    padding: 20px 20px;
+    padding: 5px 20px;
     font-size: 24px;
+    color: black;
     @media (max-width: 750px) {
       font-size: 20px;
     }
-  .texto {
-  display: block;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  display: block;
-width: 100%;
-position: absolute;
-left: 50%;
-top: 50%;
   }
-
+  img{
+    width: 70%;
+    margin: auto;
+    // opacity: 0.8;
+    margin-top: 10px;
+    border: 1px solid  #03B282;
+    border-radius: 10%;
   }
-  img{width: 100%}
-
 }
 .cintillo{
   font-family: 'Pathway Gothic One', sans-serif;

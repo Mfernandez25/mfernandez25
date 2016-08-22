@@ -69,6 +69,6 @@ $(".hover").mouseleave(
 
 jQuery(document).ready(function($){
     $('.type-it').typeIt({
-        content : 'Soy Merle,desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. '
+        content : 'Soy Merle, desarrolladora web y relacionista pública. Creativa, perseverante y responsable. Me gusta estar en constante aprendizaje, dar soluciones creativas y trabajar en equipo. '
     });
 });

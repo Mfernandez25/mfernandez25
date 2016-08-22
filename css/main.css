@@ -128,6 +128,14 @@ h1 {
 
 .about {
   padding: 60px 0px 80px;
+  background-image: url("../image/bga.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.about .pd10 {
+  padding: 10px;
 }
 
 .about h1 {
@@ -135,8 +143,9 @@ h1 {
 }
 
 .about p {
-  padding: 20px 20px;
+  padding: 5px 20px;
   font-size: 24px;
+  color: black;
 }
 
 @media (max-width: 750px) {
@@ -145,23 +154,12 @@ h1 {
   }
 }
 
-.about p .texto {
-  display: block;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  display: block;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-}
-
 .about img {
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid  #03B282;
+  border-radius: 10%;
 }
 
 .cintillo {
