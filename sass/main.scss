@@ -70,9 +70,13 @@ h1{
   }
 }
 .hero-section{
-    background: #03B282;
+    background-image:url(../image/img15.jpg);
     height: 100vh;
-    padding-top: 120px;
+    .oscuro{
+      background-color: rgba(#03B282, 0.5);
+      height: 100vh;
+      padding-top: 120px;
+    }
     img{
       width: 60%;
       margin: auto;

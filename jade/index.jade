@@ -1,16 +1,17 @@
 doctype html
 html(lang="en")
 	include ci/link.jade
-	p#page-top
+	#page-top
 	body
 		.header.navbar-fixed-top
 			.container
 				include ci/menu.jade
 		.hero-section
-			.container.text-center
-				img(src="image/logo1.png")
-				.row.menu.hidden-xs
-					include ci/centro.jade
+			.oscuro
+				.container.text-center
+					img(src="image/logo1.png")
+					.row.menu.hidden-xs
+						include ci/centro.jade
 		.about#about
 			.container
 				.row
