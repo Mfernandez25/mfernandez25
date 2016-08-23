@@ -2,7 +2,7 @@ doctype html
 html(lang="en")
 	include ci/link.jade
 	#page-top
-	body
+	body(data-spy="scroll" data-target=".navbar-fixed-top")
 		.header.navbar-fixed-top
 			.container
 				include ci/menu.jade
@@ -38,18 +38,19 @@ html(lang="en")
 					h1 PROYECTOS
 					include ci/proyectos.jade
 		.contact#contact
-			.container
-				.row.text-center
-					h1 CONTACTO
-					p mfernandez.a25@gmail.com
-					p 974314448 / 970879089
-				.row.caja.text-center
-					a(target="_blank", href="mailto:mfernandez.a25@gmail.com")
-						img(src="image/gmail.png")
-					a(target="_blank",href="https://github.com/Mfernandez25")
-						img(src="image/github.png")
-					a(target="_blank",href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button")
-						img(src="image/pinterest.png")
+			.oscuro
+				.container
+					.row.text-center
+						h1 CONTACTO
+						p mfernandez.a25@gmail.com
+						p 974314448 / 970879089
+					.row.caja.text-center
+						a(target="_blank", href="mailto:mfernandez.a25@gmail.com")
+							img(src="image/gmail.png")
+						a(target="_blank",href="https://github.com/Mfernandez25")
+							img(src="image/github.png")
+						a(target="_blank",href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button")
+							img(src="image/pinterest.png")
 		.footer
 			.container.text-center
 				p

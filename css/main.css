@@ -57,6 +57,7 @@ h1 {
 
 .header .menu-list .navbar-custom {
   padding: 10px;
+  color: white;
 }
 
 .header .menu-list .navbar {
@@ -69,6 +70,10 @@ h1 {
 
 .header .menu-list img {
   padding: 0;
+}
+
+.header .page-scroll {
+  color: white;
 }
 
 .menu {
@@ -91,6 +96,7 @@ h1 {
 
 .hero-section {
   background-image: url(../image/img15.jpg);
+  background-size: cover;
   height: 100vh;
 }
 
@@ -106,14 +112,13 @@ h1 {
 }
 
 @media (max-width: 750px) {
-  .hero-section {
+  .hero-section .oscuro {
     padding-top: 200px;
-    padding-bottom: 200px;
   }
-  .hero-section img {
+  .hero-section .oscuro img {
     width: 100%;
   }
-  .hero-section .menu li {
+  .hero-section .oscuro .menu li {
     margin: 5px;
     font-size: 10px;
     padding: 5px;
@@ -204,8 +209,15 @@ h1 {
 }
 
 .contact {
+  background-image: url(../image/img15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact .oscuro {
+  background-color: rgba(3, 178, 130, 0.5);
+  padding-top: 120px;
   padding: 20px;
-  background: #03B282;
   color: white;
 }
 
